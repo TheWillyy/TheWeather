@@ -73,7 +73,7 @@ render(){
   return (
     <div className="App">
         {this.state.data ? <WeatherDisplay data={this.state.data}/> : ''}
-        <Background/>
+        {this.state.data ? <Background data={this.state.data}/> : ''}
       </div>
     );
   }

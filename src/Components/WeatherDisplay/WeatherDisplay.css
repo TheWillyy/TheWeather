@@ -58,3 +58,8 @@
     padding:.7rem;
     border-radius: 0 0 1rem 1rem;
 }
+@media (max-width:300px){
+    #weather__temp{
+        font-size:6rem;
+    }
+}
